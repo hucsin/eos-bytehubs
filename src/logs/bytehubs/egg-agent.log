@@ -1,0 +1,10 @@
+2023-03-22 05:08:32,203 INFO 16472 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2023-03-22 05:08:32,210 INFO 16472 [egg:core] dump config after load, 3ms
+2023-03-22 05:08:32,267 INFO 16472 [egg-watcher] Start watching: ["/project/home/bytehubs/workspace/src/app","/project/home/bytehubs/workspace/src/config","/project/home/bytehubs/workspace/src/mocks","/project/home/bytehubs/workspace/src/mocks_proxy","/project/home/bytehubs/workspace/src/app.js"]
+2023-03-22 05:08:32,267 INFO 16472 [egg-watcher] Start watching: "/project/home/bytehubs/workspace/src/app"
+2023-03-22 05:08:32,267 INFO 16472 [egg-watcher] Start watching: "/project/home/bytehubs/workspace/src/config"
+2023-03-22 05:08:32,267 INFO 16472 [egg-watcher] Start watching: "/project/home/bytehubs/workspace/src/mocks"
+2023-03-22 05:08:32,267 INFO 16472 [egg-watcher] Start watching: "/project/home/bytehubs/workspace/src/mocks_proxy"
+2023-03-22 05:08:32,267 INFO 16472 [egg-watcher] Start watching: "/project/home/bytehubs/workspace/src/app.js"
+2023-03-22 05:08:32,267 INFO 16472 [egg-watcher:agent] watcher start success
+2023-03-22 05:08:32,285 INFO 16472 [egg:core] dump config after ready, 6ms

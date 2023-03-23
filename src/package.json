@@ -1,0 +1,7 @@
+{
+  "name": "bytehubs",
+  "egg": {
+    "typescript": true,
+    "declarations": true
+  }
+}

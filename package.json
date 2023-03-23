@@ -1,27 +1,62 @@
 {
-  "name": "koajs-example-starter",
-  "description": "Starting point for apps based on the Koa web framework.",
-  "author": {
-    "name": "Bogdan Luca",
-    "email": "bogdan@codesandbox.io"
+  "name": "@blocksx/eos",
+  "version": "0.1.4-alpha.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "lib/*",
+    "es/*",
+    "package.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
-  "version": "1.0.0",
-  "license": "GPL-3.0",
+  "author": "hucsin",
+  "license": "MIT",
+  "gitHead": "a14f4ca92e1213c143dd7f65c46bbd4e3283d5a0",
   "scripts": {
-    "dev": "nodemon index.js"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.1"
+    "start": "NODE_ENV=development egg-scripts start --daemon --title=egg-server-init",
+    "stop": "egg-scripts stop --title=egg-server-init",
+    "dev": "NODE_ENV=development egg-bin --baseDir=./src dev",
+    "debug": "egg-bin  debug",
+    "test-local": "egg-bin test",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "cov": "egg-bin cov",
+    "tsc": "ets && tsc -p tsconfig.json",
+    "ci": "npm run lint && npm run cov && npm run tsc",
+    "autod": "autod",
+    "lint": "eslint . --ext .ts",
+    "clean": "ets clean"
   },
   "dependencies": {
-    "koa": "^2.11.0",
-    "koa-bodyparser": "^4.2.1",
-    "koa-logger": "^3.2.1",
-    "koa-router": "^7.4.0"
+   "await-stream-ready": "^1.0.1",
+    "egg": "^2.6.1",
+    "egg-scripts": "^2.6.0",
+    "md5": "^2.3.0",
+    "md5-node": "^1.0.1",
+    "node-cache-redis": "^6.3.1",
+    "node-sql-parser": "^4.3.0",
+    "sequelize": "6.3.5",
+    "sequelize-typescript": "1.1.0",
+    "stream-wormhole": "^1.1.0"
   },
-  "keywords": [
-    "koa",
-    "nodejs",
-    "koajs"
-  ]
+  "devDependencies": {
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.10.14",
+    "@types/supertest": "^2.0.0",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.16.0",
+    "eslint": "^6.7.2",
+    "eslint-config-egg": "^8.0.0",
+    "tslib": "^1.9.0",
+    "typescript": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
 }
