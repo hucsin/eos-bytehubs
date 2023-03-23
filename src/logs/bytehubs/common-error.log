@@ -1,0 +1,38 @@
+2023-03-23 12:22:22,571 ERROR 19779 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 19779
+hostname: j9vlhc
+
+2023-03-23 12:22:22,584 ERROR 19779 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 19779
+hostname: j9vlhc
+
+2023-03-23 12:22:22,604 ERROR 19779 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v16.17.0)","x-elastic-client-meta":"es=7.17.0,js=16.17.0,t=7.17.0,hc=16.17.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679574622602,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 19779
+hostname: j9vlhc
+
+2023-03-23 12:22:22,605 ERROR 19779 nodejs.unhandledRejectionError: {"name":"ConnectionError","meta":{"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v16.17.0)","x-elastic-client-meta":"es=7.17.0,js=16.17.0,t=7.17.0,hc=16.17.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679574622602,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}}
+    at Application._unhandledRejectionHandler (/project/home/bytehubs/workspace/node_modules/egg/lib/egg.js:345:24)
+    at process.emit (node:events:513:28)
+    at process.emit (/project/home/bytehubs/workspace/node_modules/ts-node/node_modules/source-map-support/source-map-support.js:516:21)
+    at emit (node:internal/process/promises:140:20)
+    at processPromiseRejections (node:internal/process/promises:274:27)
+    at processTicksAndRejections (node:internal/process/task_queues:97:32)
+name: "unhandledRejectionError"
+pid: 19779
+hostname: j9vlhc
+

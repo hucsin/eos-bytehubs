@@ -1,0 +1,6 @@
+2023-03-23 12:22:21,345 INFO 19779 [egg-schedule]: register schedule /project/home/bytehubs/workspace/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-03-23 12:22:21,345 INFO 19779 [egg-schedule]: register schedule /project/home/bytehubs/workspace/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-03-23 12:22:21,345 INFO 19779 [egg-schedule]: register schedule /project/home/bytehubs/workspace/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-03-23 12:22:22,644 INFO 19728 [Timer] /project/home/bytehubs/workspace/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 58057358ms at 2023-03-24 04:30:00.002
+2023-03-23 12:22:22,645 INFO 19728 [Timer] /project/home/bytehubs/workspace/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 41857355ms at 2023-03-24 00:00:00.000
+2023-03-23 12:22:22,645 INFO 19728 [Timer] /project/home/bytehubs/workspace/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 41858355ms at 2023-03-24 00:00:01.000

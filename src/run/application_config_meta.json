@@ -1,0 +1,264 @@
+{
+  "onerror": {
+    "all": "/project/home/bytehubs/workspace/src/config/config.default.ts",
+    "errorPageUrl": "/project/home/bytehubs/workspace/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/project/home/bytehubs/workspace/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/project/home/bytehubs/workspace/node_modules/egg-onerror/config/config.default.js"
+  },
+  "keys": "/project/home/bytehubs/workspace/src/config/config.default.ts",
+  "middleware": "/project/home/bytehubs/workspace/src/config/config.default.ts",
+  "sourceUrl": "/project/home/bytehubs/workspace/src/config/config.default.ts",
+  "security": {
+    "csrf": {
+      "enable": "/project/home/bytehubs/workspace/src/config/config.default.ts",
+      "type": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "useSession": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "headerName": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "queryName": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "value": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "value": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "value": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "policy": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/project/home/bytehubs/workspace/node_modules/egg-session/config/config.default.js",
+    "key": "/project/home/bytehubs/workspace/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/project/home/bytehubs/workspace/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/project/home/bytehubs/workspace/node_modules/egg-session/config/config.default.js",
+    "logValue": "/project/home/bytehubs/workspace/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/project/home/bytehubs/workspace/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/project/home/bytehubs/workspace/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/project/home/bytehubs/workspace/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/project/home/bytehubs/workspace/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/project/home/bytehubs/workspace/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/project/home/bytehubs/workspace/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/project/home/bytehubs/workspace/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/project/home/bytehubs/workspace/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/project/home/bytehubs/workspace/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/project/home/bytehubs/workspace/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/project/home/bytehubs/workspace/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/project/home/bytehubs/workspace/node_modules/egg-watcher/config/config.default.js",
+      "development": "/project/home/bytehubs/workspace/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/project/home/bytehubs/workspace/node_modules/egg-schedule/config/config.default.js",
+      "file": "/project/home/bytehubs/workspace/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/project/home/bytehubs/workspace/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "files": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/project/home/bytehubs/workspace/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/project/home/bytehubs/workspace/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/project/home/bytehubs/workspace/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/project/home/bytehubs/workspace/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/project/home/bytehubs/workspace/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/project/home/bytehubs/workspace/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/project/home/bytehubs/workspace/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/project/home/bytehubs/workspace/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/project/home/bytehubs/workspace/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/project/home/bytehubs/workspace/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/project/home/bytehubs/workspace/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/project/home/bytehubs/workspace/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/project/home/bytehubs/workspace/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/project/home/bytehubs/workspace/node_modules/egg-static/config/config.default.js",
+    "dir": "/project/home/bytehubs/workspace/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/project/home/bytehubs/workspace/node_modules/egg-static/config/config.default.js",
+    "preload": "/project/home/bytehubs/workspace/node_modules/egg-static/config/config.default.js",
+    "buffer": "/project/home/bytehubs/workspace/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/project/home/bytehubs/workspace/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/project/home/bytehubs/workspace/node_modules/egg-view/config/config.default.js",
+    "cache": "/project/home/bytehubs/workspace/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/project/home/bytehubs/workspace/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/project/home/bytehubs/workspace/node_modules/egg-view/config/config.default.js",
+    "mapping": "/project/home/bytehubs/workspace/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "name": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "cookies": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "proxy": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "egg": {
+      "typescript": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "declarations": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "HOME": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "rundir": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "notFound": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "sitefile": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "middlewares": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "httpClient": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "cacheControl": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "encoding": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "formLimit": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "textLimit": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "strict": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "depth": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "encoding": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "env": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "level": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "outputJSON": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "buffer": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "appLogName": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "coreLogName": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "agentLogName": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "errorLogName": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/project/home/bytehubs/workspace/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "maxSockets": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "maxSockets": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "logging": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "port": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+      "hostname": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/project/home/bytehubs/workspace/node_modules/egg/config/config.default.js"
+}
