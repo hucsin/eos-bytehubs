@@ -31,8 +31,8 @@
     "clean": "ets clean"
   },
   "dependencies": {
-    "@blocksx/bulk": "^0.1.11-alpha.0",
-    "@blocksx/core": "^0.1.11-alpha.0",
+    "@blocksx/bulk": "^0.1.15-alpha.0",
+    "@blocksx/eos-core": "^0.1.15-alpha.0",
     "await-stream-ready": "^1.0.1",
     "egg": "^2.6.1",
     "egg-scripts": "^2.6.0",

@@ -331,6 +331,50 @@
     typescript "3.3.3"
     uuid-validate "0.0.2"
 
+"@blocksx/bulk@^0.1.15-alpha.0":
+  version "0.1.15-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/bulk/-/bulk-0.1.15-alpha.0.tgz#30c8e5f573aa691f41c37deb3cb65f520586f1b5"
+  integrity sha512-QVVRUjHSfaNQnVqFMSvvP3lFFpOI78bKJx6qWMZmlliptnHbGDf93PR71UkGbWMqOMtgzD4aaMLhK519cpWGPw==
+  dependencies:
+    "@blocksx/condition" "^0.1.14-alpha.0"
+    "@blocksx/core" "^0.1.11-alpha.0"
+    "@blocksx/eos-core" "^0.1.11-alpha.0"
+    "@blocksx/regular" "^0.1.14-alpha.0"
+    "@elastic/elasticsearch" "^7.10.0"
+    "@types/chai" "3.4.35"
+    "@types/chai-as-promised" "0.0.29"
+    "@types/chai-datetime" "0.0.30"
+    "@types/lodash" "4.14.109"
+    "@types/mocha" "2.2.39"
+    "@types/node" "11.13.4"
+    "@types/prettyjson" "0.0.28"
+    "@types/sinon" "1.16.35"
+    "@types/sinon-chai" "2.7.27"
+    chai "3.5.0"
+    chai-as-promised "6.0.0"
+    chai-datetime "1.4.1"
+    codecov "3.6.5"
+    copyfiles "2.3.0"
+    has-flag "2.0.0"
+    lodash "4.17.19"
+    mocha "8.0.1"
+    moment "^2.21.0"
+    mysql2 "^1.3.5"
+    nyc "15.1.0"
+    object.omit "^3.0.0"
+    prettyjson "1.2.1"
+    reflect-metadata "0.1.9"
+    sequelize "6.5.0"
+    sequelize-typescript "2.1.0"
+    sinon "1.17.7"
+    sinon-chai "2.8.0"
+    source-map-support "0.4.14"
+    sqlite3 "5.0.0"
+    ts-node "7.0.1"
+    tslint "5.14.0"
+    typescript "3.3.3"
+    uuid-validate "0.0.2"
+
 "@blocksx/condition@^0.1.11-alpha.0":
   version "0.1.11-alpha.0"
   resolved "https://registry.yarnpkg.com/@blocksx/condition/-/condition-0.1.11-alpha.0.tgz#1e85693706f12afbc23eff7c6204789b1a6b1563"
@@ -341,12 +385,110 @@
     json-loader "^0.5.7"
     object.omit "^3.0.0"
 
-"@blocksx/core@^0.1.11-alpha.0":
+"@blocksx/condition@^0.1.14-alpha.0":
+  version "0.1.14-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/condition/-/condition-0.1.14-alpha.0.tgz#81a837afa4b9daec942ba776f1b89e833fc7971c"
+  integrity sha512-h/btsWPYQW78DXoasC6JjBDgIAqS0LS2BNLVcY40/bcP9WbFZqzDHfU2nvQVOfoZxd9MNKd6Cb7/tvFrTbNp1w==
+  dependencies:
+    "@blocksx/core" "^0.1.11-alpha.0"
+    "@blocksx/regular" "^0.1.14-alpha.0"
+    json-loader "^0.5.7"
+    object.omit "^3.0.0"
+
+"@blocksx/core@^0.1.10-alpha.0":
+  version "0.1.10-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/core/-/core-0.1.10-alpha.0.tgz#f49e5df72c90ce25fe4794c1aaf5a22b56346dcc"
+  integrity sha512-r0pH3rzHzLiDqVpTumhYEp9d1E5muHtF9hDgfQVB9PePqBH1+O7bStw69FkqD/fU6lAsbhGvZWwdo4Q32ebEDw==
+  dependencies:
+    "@blocksx/core" lastest
+    json-loader "^0.5.7"
+    object.omit "^3.0.0"
+
+"@blocksx/core@^0.1.11-alpha.0", "@blocksx/core@lastest":
   version "0.1.11-alpha.0"
   resolved "https://registry.yarnpkg.com/@blocksx/core/-/core-0.1.11-alpha.0.tgz#fa9beb9dc9db36dca487f470b9fad3ae94394d4d"
   integrity sha512-EXJDOTZK+JOABBW/S6dypGKWmt5F71yzesrBU1R+GO1Hzu1/MAyneuP3x+5tt7ywpZcKHppdFs5Pkb/QZ3XFKQ==
   dependencies:
     "@blocksx/core" "^0.1.11-alpha.0"
+    json-loader "^0.5.7"
+    object.omit "^3.0.0"
+
+"@blocksx/encrypt@^0.1.10-alpha.0 ", "@blocksx/encrypt@^0.1.13-alpha.0":
+  version "0.1.13-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/encrypt/-/encrypt-0.1.13-alpha.0.tgz#b997bf7798454d3e3b5f276452fe2d7bbafc5c9b"
+  integrity sha512-cWgnEJ6vboNkvF33cgq71Dzg2PCXRHp73e06IQcdcHvT4WAUhDrgzMud2ADNxThtAowWfutv6P5fpmlVHYgVBw==
+  dependencies:
+    "@blocksx/core" "^0.1.10-alpha.0"
+    json-loader "^0.5.7"
+    object.omit "^3.0.0"
+
+"@blocksx/eos-core@^0.1.11-alpha.0":
+  version "0.1.11-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/eos-core/-/eos-core-0.1.11-alpha.0.tgz#98d3228a44ff463d535ae0b803443aa0d233e6be"
+  integrity sha512-tM+oTJtsNKh7nogYQ48eggubyBlMxEk0cF2iEzqcS4wQxA4TpNrYEKfsb9LwNMl4pZ5y4uy0fqFodW0WHSbFEw==
+  dependencies:
+    "@blocksx/bulk" "^0.1.11-alpha.0"
+    "@blocksx/core" "^0.1.11-alpha.0"
+    "@blocksx/encrypt" "^0.1.10-alpha.0 "
+    "@blocksx/eos-process" "^0.1.11-alpha.0"
+    "@blocksx/process" "^0.1.11-alpha.0"
+    await-stream-ready "^1.0.1"
+    egg "^2.6.1"
+    egg-scripts "^2.6.0"
+    md5 "^2.3.0"
+    md5-node "^1.0.1"
+    node-cache-redis "^6.3.1"
+    sequelize "6.3.5"
+    sequelize-typescript "1.1.0"
+    stream-wormhole "^1.1.0"
+
+"@blocksx/eos-core@^0.1.15-alpha.0":
+  version "0.1.15-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/eos-core/-/eos-core-0.1.15-alpha.0.tgz#25344a3dc770fe898c482707ba2099c6eea385ab"
+  integrity sha512-ZoJLdPTwbyHhFwo/BitmaKYGrYUvOOFPbHRaSSjNXlSnOJPUj6lE99YoOa8toWAR56jFFe7gGKc/mKeIVflHug==
+  dependencies:
+    "@blocksx/bulk" "^0.1.15-alpha.0"
+    "@blocksx/core" "^0.1.11-alpha.0"
+    "@blocksx/encrypt" "^0.1.13-alpha.0"
+    "@blocksx/eos-process" "^0.1.15-alpha.0"
+    "@blocksx/process" "^0.1.11-alpha.0"
+    await-stream-ready "^1.0.1"
+    egg "^2.6.1"
+    egg-scripts "^2.6.0"
+    md5 "^2.3.0"
+    md5-node "^1.0.1"
+    node-cache-redis "^6.3.1"
+    sequelize "6.3.5"
+    sequelize-typescript "1.1.0"
+    stream-wormhole "^1.1.0"
+
+"@blocksx/eos-process@^0.1.11-alpha.0":
+  version "0.1.11-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/eos-process/-/eos-process-0.1.11-alpha.0.tgz#525987762e63c30794d8f3459d24b83432fb3dcd"
+  integrity sha512-azw7iLsZL5W51kKrUOVQuTVjrmbuIxm0wxLOpd+ol3dpq3hmhe40XGkUgyces+X4d3LrYi+34+0uXk6UR1n3wA==
+  dependencies:
+    "@blocksx/bulk" "^0.1.11-alpha.0"
+    "@blocksx/process" "^0.1.11-alpha.0"
+    json-loader "^0.5.7"
+    object.omit "^3.0.0"
+
+"@blocksx/eos-process@^0.1.15-alpha.0":
+  version "0.1.15-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/eos-process/-/eos-process-0.1.15-alpha.0.tgz#2c9b31c2d42eb6461aa5131574cab98efaf11a37"
+  integrity sha512-Cf4e8JMKeqtAAiQlACvegxuZN1+fbCQCP8Re0nB1/+CkjoAxvXnminNINaJiLxKD0JNSJzpPUZrFWqjevWNOmQ==
+  dependencies:
+    "@blocksx/bulk" "^0.1.15-alpha.0"
+    "@blocksx/process" "^0.1.11-alpha.0"
+    json-loader "^0.5.7"
+    object.omit "^3.0.0"
+
+"@blocksx/process@^0.1.11-alpha.0":
+  version "0.1.11-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/process/-/process-0.1.11-alpha.0.tgz#8994abcea81af760bc94643a99af87782c0b9b6c"
+  integrity sha512-78WlrxV0zG26ejcbVj1gJeDHM2t72ribUr7EoZEiv+ZeHtxBasEGfHUMss03RW1lYdMwxRA2ksH9h16UvGwcHQ==
+  dependencies:
+    "@blocksx/core" "^0.1.11-alpha.0"
+    "@blocksx/runtime" "^0.1.11-alpha.0"
     json-loader "^0.5.7"
     object.omit "^3.0.0"
 
@@ -359,6 +501,53 @@
     "@blocksx/scope" "^0.1.11-alpha.0"
     json-loader "^0.5.7"
     object.omit "^3.0.0"
+
+"@blocksx/regular@^0.1.14-alpha.0":
+  version "0.1.14-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/regular/-/regular-0.1.14-alpha.0.tgz#20f93dcd65e12cabf54ac4c68c4caf390da317c6"
+  integrity sha512-+RaoVgfxFzGw6aT/8Q3afWFhl3fR/s2JZCgxa3Fg8zuegaSSq3hZV3zvfUP27OBxvB0bDjcHtZbvzAkQrU3XmQ==
+  dependencies:
+    "@blocksx/core" "^0.1.11-alpha.0"
+    "@blocksx/scope" "^0.1.11-alpha.0"
+    json-loader "^0.5.7"
+    object.omit "^3.0.0"
+    warning "^4.0.3"
+
+"@blocksx/runtime@^0.1.11-alpha.0":
+  version "0.1.11-alpha.0"
+  resolved "https://registry.yarnpkg.com/@blocksx/runtime/-/runtime-0.1.11-alpha.0.tgz#ed751c8372fa71d8ffbc24df940bfcd292c46c1e"
+  integrity sha512-NOxfOO6iow4akaf5fq5iHhsnzUTLcAJv+/O1TZq2XhVMmwvwnYPr1KyfuLPKgVzg7LDBpyKGHB981kCya+dprA==
+  dependencies:
+    "@types/chai" "3.4.35"
+    "@types/chai-as-promised" "0.0.29"
+    "@types/chai-datetime" "0.0.30"
+    "@types/lodash" "4.14.109"
+    "@types/mocha" "2.2.39"
+    "@types/node" "11.13.4"
+    "@types/prettyjson" "0.0.28"
+    "@types/sinon" "1.16.35"
+    "@types/sinon-chai" "2.7.27"
+    chai "3.5.0"
+    chai-as-promised "6.0.0"
+    chai-datetime "1.4.1"
+    codecov "3.6.5"
+    copyfiles "2.3.0"
+    has-flag "2.0.0"
+    lodash "4.17.19"
+    mocha "8.0.1"
+    moment "^2.21.0"
+    nyc "15.1.0"
+    prettyjson "1.2.1"
+    reflect-metadata "0.1.9"
+    sequelize-typescript "^2.0.0-beta.1"
+    sinon "1.17.7"
+    sinon-chai "2.8.0"
+    source-map-support "0.4.14"
+    sqlite3 "5.0.0"
+    ts-node "7.0.1"
+    tslint "5.14.0"
+    typescript "3.3.3"
+    uuid-validate "0.0.2"
 
 "@blocksx/scope@^0.1.11-alpha.0":
   version "0.1.11-alpha.0"
@@ -4945,6 +5134,18 @@ glob@7.1.6:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+glob@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
+  integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
 glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
@@ -8499,6 +8700,13 @@ sequelize-typescript@2.1.0:
   dependencies:
     glob "7.1.6"
 
+sequelize-typescript@^2.0.0-beta.1:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/sequelize-typescript/-/sequelize-typescript-2.1.5.tgz#f12d14607cc8abfd6172cd99f7d3255ec5c4d78e"
+  integrity sha512-x1CNODct8gJyfZPwEZBU5uVGNwgJI2Fda913ZxD5ZtCSRyTDPBTS/0uXciF+MlCpyqjpmoCAPtudQWzw579bzA==
+  dependencies:
+    glob "7.2.0"
+
 sequelize@6.3.5:
   version "6.3.5"
   resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-6.3.5.tgz#80e3db7ac8b76d98c45ca93334197eb6e2335158"
@@ -9813,6 +10021,13 @@ vm2@^3.9.8:
   dependencies:
     acorn "^8.7.0"
     acorn-walk "^8.2.0"
+
+warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
+  dependencies:
+    loose-envify "^1.0.0"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"

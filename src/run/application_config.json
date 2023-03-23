@@ -5,7 +5,13 @@
       "key": "EGG_SESS",
       "httpOnly": true,
       "encrypt": true,
-      "logValue": true
+      "logValue": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
     },
     "security": {
       "domainWhiteList": [],
@@ -37,7 +43,8 @@
       },
       "xframe": {
         "enable": true,
-        "value": "SAMEORIGIN"
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
       },
       "hsts": {
         "enable": false,
@@ -45,16 +52,20 @@
         "includeSubdomains": false
       },
       "dta": {
-        "enable": true
+        "enable": true,
+        "matching": "<Function anonymous>"
       },
       "methodnoallow": {
-        "enable": true
+        "enable": true,
+        "matching": "<Function anonymous>"
       },
       "noopen": {
-        "enable": true
+        "enable": true,
+        "matching": "<Function anonymous>"
       },
       "nosniff": {
-        "enable": true
+        "enable": true,
+        "matching": "<Function anonymous>"
       },
       "referrerPolicy": {
         "enable": false,
@@ -62,7 +73,8 @@
       },
       "xssProtection": {
         "enable": true,
-        "value": "1; mode=block"
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
       },
       "csp": {
         "enable": false,
@@ -94,11 +106,28 @@
     },
     "i18n": {
       "defaultLocale": "en_US",
-      "dirs": [],
+      "dirs": [
+        "/project/home/bytehubs/workspace/node_modules/egg-session/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-security/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-jsonp/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-onerror/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-i18n/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-watcher/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-schedule/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-multipart/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-development/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-logrotator/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-static/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg-view/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/config/locales",
+        "/project/home/bytehubs/workspace/node_modules/egg/config/locales",
+        "/project/home/bytehubs/workspace/src/config/locales"
+      ],
       "queryField": "locale",
       "cookieField": "locale",
       "cookieDomain": "",
-      "cookieMaxAge": "1y"
+      "cookieMaxAge": "1y",
+      "functionName": "__"
     },
     "watcher": {
       "type": "development",
@@ -121,9 +150,9 @@
       "autoFields": false,
       "defaultCharset": "utf8",
       "fieldNameSize": 100,
-      "fieldSize": "100kb",
+      "fieldSize": 102400,
       "fields": 10,
-      "fileSize": "10mb",
+      "fileSize": 10485760,
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
@@ -215,7 +244,7 @@
         "depth": 5,
         "parameterLimit": 1000
       },
-      "onerror": "<Function onerror>"
+      "returnRawBody": true
     },
     "logger": {
       "dir": "/project/home/bytehubs/workspace/src/logs/bytehubs",
@@ -235,7 +264,7 @@
       },
       "allowDebugAtProd": false,
       "enablePerformanceTimer": false,
-      "type": "agent"
+      "type": "application"
     },
     "httpclient": {
       "enableDNSCache": false,
@@ -265,8 +294,13 @@
       "meta",
       "siteFile",
       "notfound",
+      "static",
       "bodyParser",
-      "overrideMethod"
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
     "serverTimeout": null,
@@ -290,7 +324,19 @@
     "sourceUrl": "https://github.com/eggjs/examples/tree/master/bytehubs",
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware"
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
   },
   "plugins": {
     "onerror": {
