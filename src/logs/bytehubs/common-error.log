@@ -36,3 +36,613 @@ name: "unhandledRejectionError"
 pid: 19779
 hostname: j9vlhc
 
+2023-03-23 12:44:52,779 ERROR 25852 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 25852
+hostname: j9vlhc
+
+2023-03-23 12:44:52,780 ERROR 25852 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 25852
+hostname: j9vlhc
+
+2023-03-23 12:44:52,782 ERROR 25852 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 25852
+hostname: j9vlhc
+
+2023-03-23 12:44:52,798 ERROR 25852 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v16.17.0)","x-elastic-client-meta":"es=7.17.0,js=16.17.0,t=7.17.0,hc=16.17.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679575972796,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 25852
+hostname: j9vlhc
+
+2023-03-23 12:44:52,799 ERROR 25852 nodejs.unhandledRejectionError: {"name":"ConnectionError","meta":{"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v16.17.0)","x-elastic-client-meta":"es=7.17.0,js=16.17.0,t=7.17.0,hc=16.17.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679575972796,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}}
+    at Application._unhandledRejectionHandler (/project/home/bytehubs/workspace/node_modules/egg/lib/egg.js:345:24)
+    at process.emit (node:events:513:28)
+    at process.emit (/project/home/bytehubs/workspace/node_modules/ts-node/node_modules/source-map-support/source-map-support.js:516:21)
+    at emit (node:internal/process/promises:140:20)
+    at processPromiseRejections (node:internal/process/promises:274:27)
+    at processTicksAndRejections (node:internal/process/task_queues:97:32)
+name: "unhandledRejectionError"
+pid: 25852
+hostname: j9vlhc
+
+2023-03-23 12:49:17,103 ERROR 27521 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 27521
+hostname: j9vlhc
+
+2023-03-23 12:49:17,103 ERROR 27521 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 27521
+hostname: j9vlhc
+
+2023-03-23 12:49:17,106 ERROR 27521 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 27521
+hostname: j9vlhc
+
+2023-03-23 12:49:17,130 ERROR 27521 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v16.17.0)","x-elastic-client-meta":"es=7.17.0,js=16.17.0,t=7.17.0,hc=16.17.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679576237128,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 27521
+hostname: j9vlhc
+
+2023-03-23 14:09:07,710 ERROR 1849 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/eos-bytehubs/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 1849
+hostname: j9vlhc
+
+2023-03-23 14:09:07,711 ERROR 1849 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/eos-bytehubs/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 1849
+hostname: j9vlhc
+
+2023-03-23 14:09:07,714 ERROR 1849 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/eos-bytehubs/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/eos-bytehubs/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/eos-bytehubs/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/eos-bytehubs/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/eos-bytehubs/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/eos-bytehubs/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/eos-bytehubs/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/eos-bytehubs/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/eos-bytehubs/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/eos-bytehubs/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 1849
+hostname: j9vlhc
+
+2023-03-23 14:09:07,730 ERROR 1849 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/eos-bytehubs/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581027728,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 1849
+hostname: j9vlhc
+
+2023-03-23 14:09:07,732 ERROR 1849 nodejs.unhandledRejectionError: {"name":"ConnectionError","meta":{"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581027728,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}}
+    at Application._unhandledRejectionHandler (/project/eos-bytehubs/node_modules/egg/lib/egg.js:345:24)
+    at process.emit (node:events:513:28)
+    at process.emit (/project/eos-bytehubs/node_modules/ts-node/node_modules/source-map-support/source-map-support.js:516:21)
+    at emit (node:internal/process/promises:149:20)
+    at processPromiseRejections (node:internal/process/promises:283:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:32)
+name: "unhandledRejectionError"
+pid: 1849
+hostname: j9vlhc
+
+2023-03-23 14:09:07,017 ERROR 1810 nodejs.RangeError: The value of "size" is out of range. It must be <= 1GiB. Received 2983697797
+    at new NodeError (node:internal/errors:399:5)
+    at computeNewHighWaterMark (node:internal/streams/readable:368:11)
+    at Socket.Readable.read (node:internal/streams/readable:416:27)
+    at Socket.read (node:net:749:39)
+    at Socket.onReadable (/project/eos-bytehubs/node_modules/cluster-client/lib/server.js:131:21)
+    at Socket.emit (node:events:513:28)
+    at emitReadable_ (node:internal/streams/readable:590:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+code: "ERR_OUT_OF_RANGE"
+pid: 1810
+hostname: j9vlhc
+
+2023-03-23 14:10:26,307 ERROR 2874 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 2874
+hostname: j9vlhc
+
+2023-03-23 14:10:26,307 ERROR 2874 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 2874
+hostname: j9vlhc
+
+2023-03-23 14:10:26,309 ERROR 2874 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 2874
+hostname: j9vlhc
+
+2023-03-23 14:10:26,320 ERROR 2874 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581106319,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 2874
+hostname: j9vlhc
+
+2023-03-23 14:22:08,483 ERROR 8815 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 8815
+hostname: j9vlhc
+
+2023-03-23 14:22:08,484 ERROR 8815 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 8815
+hostname: j9vlhc
+
+2023-03-23 14:22:08,487 ERROR 8815 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 8815
+hostname: j9vlhc
+
+2023-03-23 14:22:08,507 ERROR 8815 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581808506,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 8815
+hostname: j9vlhc
+
+2023-03-23 14:24:41,171 ERROR 10358 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 10358
+hostname: j9vlhc
+
+2023-03-23 14:24:41,171 ERROR 10358 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 10358
+hostname: j9vlhc
+
+2023-03-23 14:24:41,174 ERROR 10358 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 10358
+hostname: j9vlhc
+
+2023-03-23 14:24:41,185 ERROR 10358 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581961184,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 10358
+hostname: j9vlhc
+
+2023-03-23 14:27:58,028 ERROR 12132 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 12132
+hostname: j9vlhc
+
+2023-03-23 14:27:58,028 ERROR 12132 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 12132
+hostname: j9vlhc
+
+2023-03-23 14:27:58,030 ERROR 12132 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 12132
+hostname: j9vlhc
+
+2023-03-23 14:27:58,048 ERROR 12132 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679582158046,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 12132
+hostname: j9vlhc
+
+2023-03-23 14:29:37,630 ERROR 12915 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 12915
+hostname: j9vlhc
+
+2023-03-23 14:29:37,630 ERROR 12915 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 12915
+hostname: j9vlhc
+
+2023-03-23 14:29:37,634 ERROR 12915 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 12915
+hostname: j9vlhc
+
+2023-03-23 14:29:37,653 ERROR 12915 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679582257648,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 12915
+hostname: j9vlhc
+
+2023-03-23 14:31:28,798 ERROR 13747 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 13747
+hostname: j9vlhc
+
+2023-03-23 14:31:28,799 ERROR 13747 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 13747
+hostname: j9vlhc
+
+2023-03-23 14:31:28,802 ERROR 13747 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 13747
+hostname: j9vlhc
+
+2023-03-23 14:31:28,815 ERROR 13747 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679582368814,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 13747
+hostname: j9vlhc
+
+2023-03-23 14:33:01,322 ERROR 14443 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 14443
+hostname: j9vlhc
+
+2023-03-23 14:33:01,322 ERROR 14443 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 14443
+hostname: j9vlhc
+
+2023-03-23 14:33:01,324 ERROR 14443 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 14443
+hostname: j9vlhc
+
+2023-03-23 14:33:01,336 ERROR 14443 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679582461335,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 14443
+hostname: j9vlhc
+
+2023-03-24 12:04:52,460 ERROR 23474 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 23474
+hostname: j9vlhc
+
+2023-03-24 12:04:52,461 ERROR 23474 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 23474
+hostname: j9vlhc
+
+2023-03-24 12:04:52,465 ERROR 23474 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 23474
+hostname: j9vlhc
+
+2023-03-24 12:04:52,490 ERROR 23474 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679659972489,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 23474
+hostname: j9vlhc
+
+2023-03-24 12:10:39,057 ERROR 27151 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 27151
+hostname: j9vlhc
+
+2023-03-24 12:25:03,490 ERROR 32609 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Class constructor BaseContextClass cannot be invoked without 'new'
+    at EosServiceController (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/controller/EosService.js:16:24)
+    at initializer (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:30:17)
+    at getExports (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at AppWorkerLoader.loadController (/project/home/bytehubs/workspace/node_modules/egg-core/lib/loader/mixin/controller.js:49:10)
+    at AppBoot.loadControllerByDirectory (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:39:21)
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:47:13
+    at AppBoot.walk (/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core/app/core/Boot.js:33:9)
+
+pid: 32609
+hostname: j9vlhc
+
+2023-03-25 01:39:58,605 ERROR 17419 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 17419
+hostname: j9vlhc
+
+2023-03-25 01:39:58,605 ERROR 17419 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 17419
+hostname: j9vlhc
+
+2023-03-25 01:40:05,492 ERROR 17419 nodejs.ConnectionError: connect ECONNREFUSED 69.234.210.171:8200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://hubsdb.com:8200/","id":"http://hubsdb.com:8200/","headers":{},"deadCount":4,"resurrectTimeout":1679708885490,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 17419
+hostname: j9vlhc
+
+2023-03-25 01:41:42,898 ERROR 18259 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 18259
+hostname: j9vlhc
+
+2023-03-25 01:41:42,898 ERROR 18259 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 18259
+hostname: j9vlhc
+
+2023-03-25 01:42:37,969 ERROR 18793 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 18793
+hostname: j9vlhc
+
+2023-03-25 01:42:38,237 ERROR 18793 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 18793
+hostname: j9vlhc
+
+2023-03-25 02:31:53,973 ERROR 629 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 629
+hostname: j9vlhc
+
+2023-03-25 02:31:53,983 ERROR 629 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 629
+hostname: j9vlhc
+
+2023-03-25 05:13:25,406 ERROR 25805 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 25805
+hostname: j9vlhc
+
+2023-03-25 05:13:25,406 ERROR 25805 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 25805
+hostname: j9vlhc
+

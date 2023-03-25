@@ -5,15 +5,15 @@ import { Boot, BaseConfig } from "@blocksx/eos-core";
 BaseConfig.mergeConfig({
   bulk: {
     sequelize: {
-      host: "hubsdb.com",
-      port: 4406,
-      database: "test",
-      dialect: "mysql",
-      username: "root",
-      password: "root@123",
+      $host: "K5tEkosL85e09TaE9ERr9s",
+      $port: "k2Ms02oSts",
+      $database: "fUoS04GYfQ",
+      $dialect: "2opZ06Y]J+",
+      $username: "SUPf01xvpo",
+      $password: "I0eG+yjmfPxv0b0pq9a+eybEio",
     },
     elasticsearch: {
-      node: "http://hubsdb.com:8200",
+      $node: "kR9EUa91M5tEUoE9K561LsY89T0bYTPdtpa4OB",
     },
   },
 });
