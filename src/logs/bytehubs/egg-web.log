@@ -49,3 +49,665 @@ pid: 19779
 hostname: j9vlhc
 
 2023-03-23 12:22:22,620 INFO 19779 [egg:core] dump config after ready, 10ms
+2023-03-23 12:44:52,606 INFO 25852 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 12:44:52,630 INFO 25852 [egg-multipart] stream mode enable
+2023-03-23 12:44:52,694 INFO 25852 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-23 12:44:52,696 INFO 25852 [egg-security] use methodnoallow middleware
+2023-03-23 12:44:52,696 INFO 25852 [egg-security] use noopen middleware
+2023-03-23 12:44:52,696 INFO 25852 [egg-security] use nosniff middleware
+2023-03-23 12:44:52,697 INFO 25852 [egg-security] use xssProtection middleware
+2023-03-23 12:44:52,697 INFO 25852 [egg-security] use xframe middleware
+2023-03-23 12:44:52,697 INFO 25852 [egg-security] use dta middleware
+2023-03-23 12:44:52,697 INFO 25852 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 12:44:52,716 INFO 25852 [egg:core] dump config after load, 3ms
+2023-03-23 12:44:52,779 ERROR 25852 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 25852
+hostname: j9vlhc
+
+2023-03-23 12:44:52,780 ERROR 25852 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 25852
+hostname: j9vlhc
+
+2023-03-23 12:44:52,789 INFO 25852 [egg:core] dump config after ready, 5ms
+2023-03-23 12:44:52,798 ERROR 25852 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v16.17.0)","x-elastic-client-meta":"es=7.17.0,js=16.17.0,t=7.17.0,hc=16.17.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679575972796,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 25852
+hostname: j9vlhc
+
+2023-03-23 12:44:52,799 ERROR 25852 nodejs.unhandledRejectionError: {"name":"ConnectionError","meta":{"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v16.17.0)","x-elastic-client-meta":"es=7.17.0,js=16.17.0,t=7.17.0,hc=16.17.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679575972796,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}}
+    at Application._unhandledRejectionHandler (/project/home/bytehubs/workspace/node_modules/egg/lib/egg.js:345:24)
+    at process.emit (node:events:513:28)
+    at process.emit (/project/home/bytehubs/workspace/node_modules/ts-node/node_modules/source-map-support/source-map-support.js:516:21)
+    at emit (node:internal/process/promises:140:20)
+    at processPromiseRejections (node:internal/process/promises:274:27)
+    at processTicksAndRejections (node:internal/process/task_queues:97:32)
+name: "unhandledRejectionError"
+pid: 25852
+hostname: j9vlhc
+
+2023-03-23 12:44:52,801 INFO 25852 [egg-watcher:application] watcher start success
+2023-03-23 12:49:16,973 INFO 27521 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 12:49:16,995 INFO 27521 [egg-multipart] stream mode enable
+2023-03-23 12:49:17,047 INFO 27521 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-23 12:49:17,049 INFO 27521 [egg-security] use methodnoallow middleware
+2023-03-23 12:49:17,049 INFO 27521 [egg-security] use noopen middleware
+2023-03-23 12:49:17,049 INFO 27521 [egg-security] use nosniff middleware
+2023-03-23 12:49:17,050 INFO 27521 [egg-security] use xssProtection middleware
+2023-03-23 12:49:17,050 INFO 27521 [egg-security] use xframe middleware
+2023-03-23 12:49:17,050 INFO 27521 [egg-security] use dta middleware
+2023-03-23 12:49:17,050 INFO 27521 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 12:49:17,057 INFO 27521 [egg:core] dump config after load, 4ms
+2023-03-23 12:49:17,103 ERROR 27521 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 27521
+hostname: j9vlhc
+
+2023-03-23 12:49:17,104 ERROR 27521 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+name: "unhandledRejectionError"
+pid: 27521
+hostname: j9vlhc
+
+2023-03-23 12:49:17,112 INFO 27521 [egg:core] dump config after ready, 5ms
+2023-03-23 12:49:17,131 ERROR 27521 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v16.17.0)","x-elastic-client-meta":"es=7.17.0,js=16.17.0,t=7.17.0,hc=16.17.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679576237128,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 27521
+hostname: j9vlhc
+
+2023-03-23 12:49:17,135 INFO 27521 [egg-watcher:application] watcher start success
+2023-03-23 14:09:07,464 INFO 1849 [egg:logger] init all loggers with options: {"dir":"/project/eos-bytehubs/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 14:09:07,490 INFO 1849 [egg-multipart] stream mode enable
+2023-03-23 14:09:07,628 INFO 1849 [egg-static] starting static serve /public/ -> /project/eos-bytehubs/src/app/public
+2023-03-23 14:09:07,632 INFO 1849 [egg-security] use methodnoallow middleware
+2023-03-23 14:09:07,632 INFO 1849 [egg-security] use noopen middleware
+2023-03-23 14:09:07,633 INFO 1849 [egg-security] use nosniff middleware
+2023-03-23 14:09:07,633 INFO 1849 [egg-security] use xssProtection middleware
+2023-03-23 14:09:07,634 INFO 1849 [egg-security] use xframe middleware
+2023-03-23 14:09:07,635 INFO 1849 [egg-security] use dta middleware
+2023-03-23 14:09:07,635 INFO 1849 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 14:09:07,662 INFO 1849 [egg:core] dump config after load, 5ms
+2023-03-23 14:09:07,710 ERROR 1849 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/eos-bytehubs/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 1849
+hostname: j9vlhc
+
+2023-03-23 14:09:07,711 ERROR 1849 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/eos-bytehubs/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 1849
+hostname: j9vlhc
+
+2023-03-23 14:09:07,720 INFO 1849 [egg:core] dump config after ready, 4ms
+2023-03-23 14:09:07,730 ERROR 1849 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/eos-bytehubs/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581027728,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 1849
+hostname: j9vlhc
+
+2023-03-23 14:09:07,732 ERROR 1849 nodejs.unhandledRejectionError: {"name":"ConnectionError","meta":{"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581027728,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}}
+    at Application._unhandledRejectionHandler (/project/eos-bytehubs/node_modules/egg/lib/egg.js:345:24)
+    at process.emit (node:events:513:28)
+    at process.emit (/project/eos-bytehubs/node_modules/ts-node/node_modules/source-map-support/source-map-support.js:516:21)
+    at emit (node:internal/process/promises:149:20)
+    at processPromiseRejections (node:internal/process/promises:283:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:32)
+name: "unhandledRejectionError"
+pid: 1849
+hostname: j9vlhc
+
+2023-03-23 14:09:07,735 INFO 1849 [egg-watcher:application] watcher start success
+2023-03-23 14:10:26,178 INFO 2874 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 14:10:26,201 INFO 2874 [egg-multipart] stream mode enable
+2023-03-23 14:10:26,252 INFO 2874 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-23 14:10:26,254 INFO 2874 [egg-security] use methodnoallow middleware
+2023-03-23 14:10:26,254 INFO 2874 [egg-security] use noopen middleware
+2023-03-23 14:10:26,254 INFO 2874 [egg-security] use nosniff middleware
+2023-03-23 14:10:26,255 INFO 2874 [egg-security] use xssProtection middleware
+2023-03-23 14:10:26,255 INFO 2874 [egg-security] use xframe middleware
+2023-03-23 14:10:26,255 INFO 2874 [egg-security] use dta middleware
+2023-03-23 14:10:26,256 INFO 2874 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 14:10:26,273 INFO 2874 [egg:core] dump config after load, 3ms
+2023-03-23 14:10:26,307 ERROR 2874 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 2874
+hostname: j9vlhc
+
+2023-03-23 14:10:26,307 ERROR 2874 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 2874
+hostname: j9vlhc
+
+2023-03-23 14:10:26,313 INFO 2874 [egg:core] dump config after ready, 3ms
+2023-03-23 14:10:26,320 ERROR 2874 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581106319,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 2874
+hostname: j9vlhc
+
+2023-03-23 14:10:26,322 INFO 2874 [egg-watcher:application] watcher start success
+2023-03-23 14:22:08,336 INFO 8815 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 14:22:08,375 INFO 8815 [egg-multipart] stream mode enable
+2023-03-23 14:22:08,435 INFO 8815 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-23 14:22:08,437 INFO 8815 [egg-security] use methodnoallow middleware
+2023-03-23 14:22:08,437 INFO 8815 [egg-security] use noopen middleware
+2023-03-23 14:22:08,438 INFO 8815 [egg-security] use nosniff middleware
+2023-03-23 14:22:08,438 INFO 8815 [egg-security] use xssProtection middleware
+2023-03-23 14:22:08,438 INFO 8815 [egg-security] use xframe middleware
+2023-03-23 14:22:08,439 INFO 8815 [egg-security] use dta middleware
+2023-03-23 14:22:08,439 INFO 8815 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 14:22:08,445 INFO 8815 [egg:core] dump config after load, 3ms
+2023-03-23 14:22:08,484 ERROR 8815 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 8815
+hostname: j9vlhc
+
+2023-03-23 14:22:08,484 ERROR 8815 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 8815
+hostname: j9vlhc
+
+2023-03-23 14:22:08,498 INFO 8815 [egg:core] dump config after ready, 8ms
+2023-03-23 14:22:08,507 ERROR 8815 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581808506,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 8815
+hostname: j9vlhc
+
+2023-03-23 14:22:08,509 INFO 8815 [egg-watcher:application] watcher start success
+2023-03-23 14:24:41,045 INFO 10358 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 14:24:41,069 INFO 10358 [egg-multipart] stream mode enable
+2023-03-23 14:24:41,123 INFO 10358 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-23 14:24:41,124 INFO 10358 [egg-security] use methodnoallow middleware
+2023-03-23 14:24:41,125 INFO 10358 [egg-security] use noopen middleware
+2023-03-23 14:24:41,125 INFO 10358 [egg-security] use nosniff middleware
+2023-03-23 14:24:41,125 INFO 10358 [egg-security] use xssProtection middleware
+2023-03-23 14:24:41,126 INFO 10358 [egg-security] use xframe middleware
+2023-03-23 14:24:41,126 INFO 10358 [egg-security] use dta middleware
+2023-03-23 14:24:41,126 INFO 10358 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 14:24:41,132 INFO 10358 [egg:core] dump config after load, 3ms
+2023-03-23 14:24:41,171 ERROR 10358 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 10358
+hostname: j9vlhc
+
+2023-03-23 14:24:41,171 ERROR 10358 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 10358
+hostname: j9vlhc
+
+2023-03-23 14:24:41,177 INFO 10358 [egg:core] dump config after ready, 3ms
+2023-03-23 14:24:41,185 ERROR 10358 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679581961184,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 10358
+hostname: j9vlhc
+
+2023-03-23 14:24:41,187 INFO 10358 [egg-watcher:application] watcher start success
+2023-03-23 14:27:57,898 INFO 12132 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 14:27:57,923 INFO 12132 [egg-multipart] stream mode enable
+2023-03-23 14:27:57,980 INFO 12132 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-23 14:27:57,981 INFO 12132 [egg-security] use methodnoallow middleware
+2023-03-23 14:27:57,982 INFO 12132 [egg-security] use noopen middleware
+2023-03-23 14:27:57,982 INFO 12132 [egg-security] use nosniff middleware
+2023-03-23 14:27:57,982 INFO 12132 [egg-security] use xssProtection middleware
+2023-03-23 14:27:57,983 INFO 12132 [egg-security] use xframe middleware
+2023-03-23 14:27:57,983 INFO 12132 [egg-security] use dta middleware
+2023-03-23 14:27:57,983 INFO 12132 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 14:27:57,990 INFO 12132 [egg:core] dump config after load, 4ms
+2023-03-23 14:27:58,028 ERROR 12132 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 12132
+hostname: j9vlhc
+
+2023-03-23 14:27:58,028 ERROR 12132 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 12132
+hostname: j9vlhc
+
+2023-03-23 14:27:58,034 INFO 12132 [egg:core] dump config after ready, 3ms
+2023-03-23 14:27:58,048 ERROR 12132 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679582158046,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 12132
+hostname: j9vlhc
+
+2023-03-23 14:27:58,050 INFO 12132 [egg-watcher:application] watcher start success
+2023-03-23 14:29:37,441 INFO 12915 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 14:29:37,472 INFO 12915 [egg-multipart] stream mode enable
+2023-03-23 14:29:37,534 INFO 12915 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-23 14:29:37,536 INFO 12915 [egg-security] use methodnoallow middleware
+2023-03-23 14:29:37,537 INFO 12915 [egg-security] use noopen middleware
+2023-03-23 14:29:37,537 INFO 12915 [egg-security] use nosniff middleware
+2023-03-23 14:29:37,538 INFO 12915 [egg-security] use xssProtection middleware
+2023-03-23 14:29:37,538 INFO 12915 [egg-security] use xframe middleware
+2023-03-23 14:29:37,539 INFO 12915 [egg-security] use dta middleware
+2023-03-23 14:29:37,539 INFO 12915 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 14:29:37,549 INFO 12915 [egg:core] dump config after load, 5ms
+2023-03-23 14:29:37,630 ERROR 12915 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 12915
+hostname: j9vlhc
+
+2023-03-23 14:29:37,631 ERROR 12915 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 12915
+hostname: j9vlhc
+
+2023-03-23 14:29:37,641 INFO 12915 [egg:core] dump config after ready, 5ms
+2023-03-23 14:29:37,653 ERROR 12915 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679582257648,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 12915
+hostname: j9vlhc
+
+2023-03-23 14:29:37,656 INFO 12915 [egg-watcher:application] watcher start success
+2023-03-23 14:31:28,633 INFO 13747 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 14:31:28,665 INFO 13747 [egg-multipart] stream mode enable
+2023-03-23 14:31:28,738 INFO 13747 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-23 14:31:28,740 INFO 13747 [egg-security] use methodnoallow middleware
+2023-03-23 14:31:28,741 INFO 13747 [egg-security] use noopen middleware
+2023-03-23 14:31:28,741 INFO 13747 [egg-security] use nosniff middleware
+2023-03-23 14:31:28,741 INFO 13747 [egg-security] use xssProtection middleware
+2023-03-23 14:31:28,742 INFO 13747 [egg-security] use xframe middleware
+2023-03-23 14:31:28,742 INFO 13747 [egg-security] use dta middleware
+2023-03-23 14:31:28,742 INFO 13747 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 14:31:28,754 INFO 13747 [egg:core] dump config after load, 6ms
+2023-03-23 14:31:28,799 ERROR 13747 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 13747
+hostname: j9vlhc
+
+2023-03-23 14:31:28,799 ERROR 13747 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 13747
+hostname: j9vlhc
+
+2023-03-23 14:31:28,807 INFO 13747 [egg:core] dump config after ready, 4ms
+2023-03-23 14:31:28,815 ERROR 13747 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679582368814,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 13747
+hostname: j9vlhc
+
+2023-03-23 14:31:28,817 INFO 13747 [egg-watcher:application] watcher start success
+2023-03-23 14:33:01,201 INFO 14443 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-23 14:33:01,223 INFO 14443 [egg-multipart] stream mode enable
+2023-03-23 14:33:01,277 INFO 14443 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-23 14:33:01,279 INFO 14443 [egg-security] use methodnoallow middleware
+2023-03-23 14:33:01,279 INFO 14443 [egg-security] use noopen middleware
+2023-03-23 14:33:01,279 INFO 14443 [egg-security] use nosniff middleware
+2023-03-23 14:33:01,280 INFO 14443 [egg-security] use xssProtection middleware
+2023-03-23 14:33:01,280 INFO 14443 [egg-security] use xframe middleware
+2023-03-23 14:33:01,280 INFO 14443 [egg-security] use dta middleware
+2023-03-23 14:33:01,280 INFO 14443 [egg-security] compose 6 middlewares into one security middleware
+2023-03-23 14:33:01,287 INFO 14443 [egg:core] dump config after load, 4ms
+2023-03-23 14:33:01,322 ERROR 14443 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 14443
+hostname: j9vlhc
+
+2023-03-23 14:33:01,322 ERROR 14443 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 14443
+hostname: j9vlhc
+
+2023-03-23 14:33:01,329 INFO 14443 [egg:core] dump config after ready, 4ms
+2023-03-23 14:33:01,337 ERROR 14443 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679582461335,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 14443
+hostname: j9vlhc
+
+2023-03-23 14:33:01,338 INFO 14443 [egg-watcher:application] watcher start success
+2023-03-24 12:04:52,268 INFO 23474 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-24 12:04:52,298 INFO 23474 [egg-multipart] stream mode enable
+2023-03-24 12:04:52,393 INFO 23474 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-24 12:04:52,395 INFO 23474 [egg-security] use methodnoallow middleware
+2023-03-24 12:04:52,396 INFO 23474 [egg-security] use noopen middleware
+2023-03-24 12:04:52,396 INFO 23474 [egg-security] use nosniff middleware
+2023-03-24 12:04:52,397 INFO 23474 [egg-security] use xssProtection middleware
+2023-03-24 12:04:52,397 INFO 23474 [egg-security] use xframe middleware
+2023-03-24 12:04:52,397 INFO 23474 [egg-security] use dta middleware
+2023-03-24 12:04:52,397 INFO 23474 [egg-security] compose 6 middlewares into one security middleware
+2023-03-24 12:04:52,405 INFO 23474 [egg:core] dump config after load, 4ms
+2023-03-24 12:04:52,461 ERROR 23474 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 23474
+hostname: j9vlhc
+
+2023-03-24 12:04:52,461 ERROR 23474 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 23474
+hostname: j9vlhc
+
+2023-03-24 12:04:52,480 INFO 23474 [egg:core] dump config after ready, 12ms
+2023-03-24 12:04:52,490 ERROR 23474 nodejs.ConnectionError: connect ECONNREFUSED 127.0.0.1:9200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://127.0.0.1:9200/","id":"http://127.0.0.1:9200/","headers":{},"deadCount":4,"resurrectTimeout":1679659972489,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 23474
+hostname: j9vlhc
+
+2023-03-24 12:04:52,493 INFO 23474 [egg-watcher:application] watcher start success
+2023-03-24 12:10:38,960 INFO 27151 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-24 12:10:38,983 INFO 27151 [egg-multipart] stream mode enable
+2023-03-24 12:10:39,034 INFO 27151 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-24 12:10:39,036 INFO 27151 [egg-security] use methodnoallow middleware
+2023-03-24 12:10:39,036 INFO 27151 [egg-security] use noopen middleware
+2023-03-24 12:10:39,036 INFO 27151 [egg-security] use nosniff middleware
+2023-03-24 12:10:39,037 INFO 27151 [egg-security] use xssProtection middleware
+2023-03-24 12:10:39,037 INFO 27151 [egg-security] use xframe middleware
+2023-03-24 12:10:39,037 INFO 27151 [egg-security] use dta middleware
+2023-03-24 12:10:39,037 INFO 27151 [egg-security] compose 6 middlewares into one security middleware
+2023-03-24 12:10:39,043 INFO 27151 [egg:core] dump config after load, 3ms
+2023-03-24 12:10:39,061 INFO 27151 [egg:core] dump config after ready, 3ms
+2023-03-24 12:10:39,073 INFO 27151 [egg-watcher:application] watcher start success
+2023-03-24 12:25:03,366 INFO 32609 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-24 12:25:03,394 INFO 32609 [egg-multipart] stream mode enable
+2023-03-24 12:25:03,457 INFO 32609 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-24 12:25:03,458 INFO 32609 [egg-security] use methodnoallow middleware
+2023-03-24 12:25:03,459 INFO 32609 [egg-security] use noopen middleware
+2023-03-24 12:25:03,459 INFO 32609 [egg-security] use nosniff middleware
+2023-03-24 12:25:03,460 INFO 32609 [egg-security] use xssProtection middleware
+2023-03-24 12:25:03,460 INFO 32609 [egg-security] use xframe middleware
+2023-03-24 12:25:03,460 INFO 32609 [egg-security] use dta middleware
+2023-03-24 12:25:03,460 INFO 32609 [egg-security] compose 6 middlewares into one security middleware
+2023-03-24 12:25:03,466 INFO 32609 [egg:core] dump config after load, 3ms
+2023-03-24 12:25:03,510 INFO 32609 [egg:core] dump config after ready, 11ms
+2023-03-24 12:25:03,520 INFO 32609 [egg-watcher:application] watcher start success
+2023-03-25 01:39:56,926 INFO 17419 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-25 01:39:56,952 INFO 17419 [egg-multipart] stream mode enable
+2023-03-25 01:39:57,016 INFO 17419 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-25 01:39:57,018 INFO 17419 [egg-security] use methodnoallow middleware
+2023-03-25 01:39:57,018 INFO 17419 [egg-security] use noopen middleware
+2023-03-25 01:39:57,019 INFO 17419 [egg-security] use nosniff middleware
+2023-03-25 01:39:57,019 INFO 17419 [egg-security] use xssProtection middleware
+2023-03-25 01:39:57,019 INFO 17419 [egg-security] use xframe middleware
+2023-03-25 01:39:57,020 INFO 17419 [egg-security] use dta middleware
+2023-03-25 01:39:57,020 INFO 17419 [egg-security] compose 6 middlewares into one security middleware
+2023-03-25 01:39:57,027 INFO 17419 [egg:core] dump config after load, 4ms
+2023-03-25 01:39:57,065 INFO 17419 [egg-watcher:application] watcher start success
+2023-03-25 01:39:57,072 INFO 17419 [egg:core] dump config after ready, 4ms
+2023-03-25 01:39:58,605 ERROR 17419 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 17419
+hostname: j9vlhc
+
+2023-03-25 01:39:58,605 ERROR 17419 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 17419
+hostname: j9vlhc
+
+2023-03-25 01:40:05,493 ERROR 17419 nodejs.ConnectionError: connect ECONNREFUSED 69.234.210.171:8200
+    at ClientRequest.onError (/project/home/bytehubs/workspace/node_modules/@elastic/elasticsearch/lib/Connection.js:123:16)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:502:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+name: "ConnectionError"
+meta: {"body":null,"statusCode":null,"headers":null,"meta":{"context":null,"request":{"params":{"method":"GET","path":"/","headers":{"user-agent":"elasticsearch-js/7.17.0 (linux 5.15.63-x64; Node.js v18.15.0)","x-elastic-client-meta":"es=7.17.0,js=18.15.0,t=7.17.0,hc=18.15.0"},"querystring":"","timeout":30000},"options":{},"id":2},"name":"elasticsearch-js","connection":{"url":"http://hubsdb.com:8200/","id":"http://hubsdb.com:8200/","headers":{},"deadCount":4,"resurrectTimeout":1679708885490,"_openRequests":0,"status":"dead","roles":{"master":true,"data":true,"ingest":true,"ml":false}},"attempts":3,"aborted":false}}
+pid: 17419
+hostname: j9vlhc
+
+2023-03-25 01:41:41,888 INFO 18259 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-25 01:41:41,912 INFO 18259 [egg-multipart] stream mode enable
+2023-03-25 01:41:41,971 INFO 18259 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-25 01:41:41,972 INFO 18259 [egg-security] use methodnoallow middleware
+2023-03-25 01:41:41,972 INFO 18259 [egg-security] use noopen middleware
+2023-03-25 01:41:41,973 INFO 18259 [egg-security] use nosniff middleware
+2023-03-25 01:41:41,973 INFO 18259 [egg-security] use xssProtection middleware
+2023-03-25 01:41:41,974 INFO 18259 [egg-security] use xframe middleware
+2023-03-25 01:41:41,974 INFO 18259 [egg-security] use dta middleware
+2023-03-25 01:41:41,974 INFO 18259 [egg-security] compose 6 middlewares into one security middleware
+2023-03-25 01:41:41,982 INFO 18259 [egg:core] dump config after load, 6ms
+2023-03-25 01:41:42,035 INFO 18259 [egg-watcher:application] watcher start success
+2023-03-25 01:41:42,040 INFO 18259 [egg:core] dump config after ready, 3ms
+2023-03-25 01:41:42,898 ERROR 18259 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 18259
+hostname: j9vlhc
+
+2023-03-25 01:41:42,899 ERROR 18259 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 18259
+hostname: j9vlhc
+
+2023-03-25 01:42:34,723 INFO 18793 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-25 01:42:34,761 INFO 18793 [egg-multipart] stream mode enable
+2023-03-25 01:42:34,818 INFO 18793 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-25 01:42:34,820 INFO 18793 [egg-security] use methodnoallow middleware
+2023-03-25 01:42:34,820 INFO 18793 [egg-security] use noopen middleware
+2023-03-25 01:42:34,821 INFO 18793 [egg-security] use nosniff middleware
+2023-03-25 01:42:34,821 INFO 18793 [egg-security] use xssProtection middleware
+2023-03-25 01:42:34,821 INFO 18793 [egg-security] use xframe middleware
+2023-03-25 01:42:34,822 INFO 18793 [egg-security] use dta middleware
+2023-03-25 01:42:34,822 INFO 18793 [egg-security] compose 6 middlewares into one security middleware
+2023-03-25 01:42:34,827 INFO 18793 [egg:core] dump config after load, 3ms
+2023-03-25 01:42:34,853 INFO 18793 [egg-watcher:application] watcher start success
+2023-03-25 01:42:34,859 INFO 18793 [egg:core] dump config after ready, 4ms
+2023-03-25 01:42:37,969 ERROR 18793 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 18793
+hostname: j9vlhc
+
+2023-03-25 01:42:38,238 ERROR 18793 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 18793
+hostname: j9vlhc
+
+2023-03-25 02:31:51,279 INFO 629 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-25 02:31:51,307 INFO 629 [egg-multipart] stream mode enable
+2023-03-25 02:31:51,382 INFO 629 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-25 02:31:51,383 INFO 629 [egg-security] use methodnoallow middleware
+2023-03-25 02:31:51,384 INFO 629 [egg-security] use noopen middleware
+2023-03-25 02:31:51,384 INFO 629 [egg-security] use nosniff middleware
+2023-03-25 02:31:51,385 INFO 629 [egg-security] use xssProtection middleware
+2023-03-25 02:31:51,385 INFO 629 [egg-security] use xframe middleware
+2023-03-25 02:31:51,385 INFO 629 [egg-security] use dta middleware
+2023-03-25 02:31:51,386 INFO 629 [egg-security] compose 6 middlewares into one security middleware
+2023-03-25 02:31:51,392 INFO 629 [egg:core] dump config after load, 4ms
+2023-03-25 02:31:51,416 INFO 629 [egg-watcher:application] watcher start success
+2023-03-25 02:31:51,422 INFO 629 [egg:core] dump config after ready, 4ms
+2023-03-25 02:31:53,973 ERROR 629 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 629
+hostname: j9vlhc
+
+2023-03-25 02:31:53,983 ERROR 629 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 629
+hostname: j9vlhc
+
+2023-03-25 05:13:23,561 INFO 25805 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-25 05:13:23,585 INFO 25805 [egg-multipart] stream mode enable
+2023-03-25 05:13:23,639 INFO 25805 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-25 05:13:23,642 INFO 25805 [egg-security] use methodnoallow middleware
+2023-03-25 05:13:23,642 INFO 25805 [egg-security] use noopen middleware
+2023-03-25 05:13:23,643 INFO 25805 [egg-security] use nosniff middleware
+2023-03-25 05:13:23,644 INFO 25805 [egg-security] use xssProtection middleware
+2023-03-25 05:13:23,644 INFO 25805 [egg-security] use xframe middleware
+2023-03-25 05:13:23,644 INFO 25805 [egg-security] use dta middleware
+2023-03-25 05:13:23,644 INFO 25805 [egg-security] compose 6 middlewares into one security middleware
+2023-03-25 05:13:23,665 INFO 25805 [egg:core] dump config after load, 18ms
+2023-03-25 05:13:23,709 INFO 25805 [egg-watcher:application] watcher start success
+2023-03-25 05:13:23,717 INFO 25805 [egg:core] dump config after ready, 6ms
+2023-03-25 05:13:25,406 ERROR 25805 nodejs.unhandledRejectionError: 创建对象模型连接数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:52:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 25805
+hostname: j9vlhc
+
+2023-03-25 05:13:25,406 ERROR 25805 nodejs.unhandledRejectionError: 创建对象模型连接关系数据库失败
+    at /project/home/bytehubs/workspace/node_modules/@blocksx/bulk/lib/core/BulkInstance.js:32:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+name: "unhandledRejectionError"
+pid: 25805
+hostname: j9vlhc
+
+2023-03-25 05:15:20,854 INFO 26989 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-25 05:15:20,879 INFO 26989 [egg-multipart] stream mode enable
+2023-03-25 05:15:20,996 INFO 26989 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-25 05:15:20,997 INFO 26989 [egg-security] use methodnoallow middleware
+2023-03-25 05:15:20,998 INFO 26989 [egg-security] use noopen middleware
+2023-03-25 05:15:20,998 INFO 26989 [egg-security] use nosniff middleware
+2023-03-25 05:15:20,998 INFO 26989 [egg-security] use xssProtection middleware
+2023-03-25 05:15:20,999 INFO 26989 [egg-security] use xframe middleware
+2023-03-25 05:15:20,999 INFO 26989 [egg-security] use dta middleware
+2023-03-25 05:15:20,999 INFO 26989 [egg-security] compose 6 middlewares into one security middleware
+2023-03-25 05:15:21,005 INFO 26989 [egg:core] dump config after load, 4ms
+2023-03-25 05:15:21,025 INFO 26989 [egg-watcher:application] watcher start success
+2023-03-25 05:15:21,030 INFO 26989 [egg:core] dump config after ready, 3ms
+2023-03-25 05:49:12,572 INFO 7868 [egg:logger] init all loggers with options: {"dir":"/project/home/bytehubs/workspace/src/logs/bytehubs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bytehubs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2023-03-25 05:49:12,599 INFO 7868 [egg-multipart] stream mode enable
+2023-03-25 05:49:12,656 INFO 7868 [egg-static] starting static serve /public/ -> /project/home/bytehubs/workspace/src/app/public
+2023-03-25 05:49:12,658 INFO 7868 [egg-security] use methodnoallow middleware
+2023-03-25 05:49:12,658 INFO 7868 [egg-security] use noopen middleware
+2023-03-25 05:49:12,658 INFO 7868 [egg-security] use nosniff middleware
+2023-03-25 05:49:12,659 INFO 7868 [egg-security] use xssProtection middleware
+2023-03-25 05:49:12,659 INFO 7868 [egg-security] use xframe middleware
+2023-03-25 05:49:12,659 INFO 7868 [egg-security] use dta middleware
+2023-03-25 05:49:12,659 INFO 7868 [egg-security] compose 6 middlewares into one security middleware
+2023-03-25 05:49:12,665 INFO 7868 [egg:core] dump config after load, 4ms
+2023-03-25 05:49:12,689 INFO 7868 [egg-watcher:application] watcher start success
+2023-03-25 05:49:12,696 INFO 7868 [egg:core] dump config after ready, 5ms

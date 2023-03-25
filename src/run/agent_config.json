@@ -454,7 +454,7 @@
       "env": [],
       "from": "/project/home/bytehubs/workspace/src/config/plugin.default.ts",
       "path": "/project/home/bytehubs/workspace/node_modules/@blocksx/eos-core",
-      "version": "0.1.15-alpha.0"
+      "version": "0.1.23-alpha.0"
     }
   },
   "appInfo": {
